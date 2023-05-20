@@ -1,4 +1,4 @@
-package com.example.newsapp
+package com.example.newsapp.ui
 
 import android.R
 import android.os.Bundle
@@ -20,7 +20,6 @@ class NewsActivity : AppCompatActivity() {
         val navigationView = binding.bottomNavigationView
         val navController = binding.newsNavHostFragment.getFragment<NavHostFragment>().navController
         navigationView.setupWithNavController(navController)
-
     }
 }
 
